@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid #e67e22;
+}
+
+/* Hero Section */
+.about-hero {
+  background: url("images/about-hero.jpg") no-repeat center center/cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Team Section */
+.team {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.team h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50;
+  color: #bdc3c7;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
