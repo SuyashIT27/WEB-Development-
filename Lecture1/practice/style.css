@@ -1,0 +1,40 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Parent container */
+#container-box {
+  display: grid;
+  grid-template-columns: repeat(2, 150px); /* 2 columns */
+  grid-template-rows: repeat(2, 150px); /* 2 rows */
+  gap: 15px; /* space between boxes */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Each box */
+.box {
+  background-color: #f4f4f4;
+  border: 2px solid #333;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* If you want inside parts in first box */
+.part {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+}
