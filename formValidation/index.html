@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <span class="name">
+        <p class="name1">Name:</p>
+        <input type="text" name="Name" id="name" placeholder="Enter name" />
+      </span>
+      <span class="number">
+        <p class="number1">Phone number</p>
+        <input
+          type="text"
+          name="Nummber"
+          id="number"
+          placeholder="Enter your number"
+        />
+      </span>
+      <span class="email">
+        <p class="email1">E Mail</p>
+        <input
+          type="email"
+          name="E mail"
+          id="email"
+          placeholder="Enter e mail address"
+        /> </span
+      ><br />
+      <br />
+    </form>
+
+    <button id="submit" onclick="submit1()">Submit</button>
+    <div class="output">
+      <p>Your name is :<span id="otname"></span></p>
+      <p>Your mobile number is : <span id="otnumber"></span></p>
+      <p>Your e mail is : <span id="otemail"></span></p>
+    </div>
+    <script src="/form validation/script.js"></script>
+  </body>
+</html>
